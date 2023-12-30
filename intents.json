@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Wassup bro", "A fin", "Wech kho"],
+    "responses": ["Hello! مرحبًا بك في دار الفهرية، مكانك المفضل لشراء الكتب عبر الإنترنت.", 
+                   "Hi there! دار الفهرية هنا لجميع احتياجاتك الكتابية.", 
+                   "Hi! مرحبًا بك في دار الفهرية. كيف يمكننا مساعدتك اليوم؟", 
+                   "Hi there! مرحبًا بك في دار الفهرية - ملاذك الأدبي."]
+                },
+    
+    {  "tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Ciao", "Tchuss", "Thella"],
+    "responses": ["See you later", "Have a nice day", "وداعًا! عد مرة أخرى إلى دار الفهرية", "Auf Wiedersehen"]
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "la7afdek", "Itoub"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!", "Hania a khouya"]
+    },
+    {"tag": "about",
+    "patterns": ["Who are you?", "What are you?", "Who you are?", "Chkoun nta" ],
+    "responses": ["I'm Fatima al Fahria, your virtual assistant.", 
+                   "I am Fatima al Fahria, an A.I bot here to assist you.", 
+                   "Je suis Fatima al Fahria, votre assistante virtuelle."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Fatima al Fahria.", "I'm Fatima al Fahria!", "Just call me as Fatima al Fahria."]
+    },
+    {  "tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "support me please"],
+    "responses": ["Tell me how I can assist you", "Tell me your problem, and I'll help you", "Yes, sure. How can I support you?", "قول لي كيف يمكنني مساعدتك"]
+    },
+    {"tag": "complaint",
+    "patterns": ["I have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["من فضلك قدم لنا شكواك لنتمكن من مساعدتك.", "من فضلك ذكر شكواك، سنتواصل معك ونعتذر عن أي إزعاج قد تكون قد تسببناه."]
+    },
+    {
+        "tag": "makeorder",
+        "patterns": ["I want to place an order", "How can I make a purchase?", "Can I order a book?", "Tell me about the ordering process"],
+        "responses": ["Sure, you can place an order by visiting our Facebook/Instagram page and following the ordering guidelines. انتقل إلى صفحتنا على الفيسبوك/إنستغرام واتبع الإرشادات لطلب كتاب.", 
+                       "Certainly! To order a book, visit our Facebook/Instagram page and follow the instructions for placing an order. بالطبع! لطلب كتاب، قم بزيارة صفحتنا على الفيسبوك/إنستغرام واتبع التعليمات."]
+      }   
+]
+}
